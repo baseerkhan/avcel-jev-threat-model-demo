@@ -13,7 +13,7 @@ Environment=HOST=127.0.0.1
 Environment=PORT=8791
 Environment=AVCEL_DATA_DIR=/var/lib/avcel-jev
 Environment=AVCEL_MAX_RECORDS=250
-ExecStart=/usr/bin/node /opt/avcel-jev/current/dist/server.js
+ExecStart=/opt/avcel-jev/runtime/current/bin/node /opt/avcel-jev/current/dist/server.js
 Restart=on-failure
 RestartSec=3
 TimeoutStopSec=20
